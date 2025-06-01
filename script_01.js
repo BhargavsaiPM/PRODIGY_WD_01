@@ -1,4 +1,4 @@
-const navbar = document.getElementById('navbar');
+    const navbar = document.getElementById('navbar');
     const logos = document.getElementsByClassName("logo");
     const links = navbar.getElementsByTagName("a");
 
@@ -17,8 +17,6 @@ const navbar = document.getElementById('navbar');
     }, 100);
 
     // Set initial styles and transitions for logos and links
-  
-
     window.addEventListener('scroll', () => {
       if (window.scrollY > 50) {
         navbar.style.backgroundColor = "rgb(89 101 185)";  // Calm Teal
